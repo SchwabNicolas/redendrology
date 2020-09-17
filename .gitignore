@@ -1,0 +1,14 @@
+db.sqlite3
+*.pyc
+*~
+/__pycache__
+/frontend/node_modules
+.idea
+.vscode
+.DS_STORE
+/frontend/migrations
+/dendrologyAPI/migrations
+frontend/package-lock.json
+/venv
+Pipfile
+Pipfile.lock
