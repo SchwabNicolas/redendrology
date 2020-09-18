@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dendrologyAPI.apps.DendrologyConfig',
+    'frontend',
     'rest_framework'
 ]
 

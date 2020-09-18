@@ -2,5 +2,6 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('dendrology/', TreeCreate.as_view()),
+    path('', Index.as_view()),
+    path('home/', Index.as_view()),
 ]

@@ -1,0 +1,37 @@
+{
+  "name": "redendrology",
+  "version": "1.0.0",
+  "description": "NPM package for Dendrology.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./frontend/webpack.config.js --mode development frontend/static/frontend/js/index.js --output ./frontend/static/frontend/js/main.js",
+    "build": "webpack --config ./frontend/webpack.config.js --mode production frontend/static/frontend/js/index.js --output ./frontend/static/frontend/js/main.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "keywords": [
+    "frontend",
+    "dendrology",
+    "react"
+  ],
+  "author": "Nicolas Schwab",
+  "license": "ISC"
+}
